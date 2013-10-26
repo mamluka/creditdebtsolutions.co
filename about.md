@@ -1,26 +1,13 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
+title: The National Injury Attorney Network
+tags: [Injury,Attorney Network]
 modified: 9-9-2013
-image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+The National Injury Attorney Network is an attorney matching service offered for free to individuals within the United States that have suffered an injury at the fault of another.
 
-## Minimal Mistakes is all about:
+The purpose of this service is to provide you the consumer with a free resource to share specific details about your legal case, help you understand whether or not you have a case based on the case requirements and your personal situation and to ultimately match you with the most competent attorney that services such cases.  Attorneys within the National Injury Attorney Network work on a contingency basis.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments. Content first --- other widget nonsense never.
-* Large feature images for posts and pages.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
-
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
+Legal case reviews cost you nothing and if no compensation is awarded, you pay no legal fees.  The National Injury Attorney Network works as a marketing company for attorneys and is not an attorney referral service.

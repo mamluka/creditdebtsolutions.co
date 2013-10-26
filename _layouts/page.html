@@ -14,6 +14,7 @@
 {% include navigation.html %}
 
 {% if page.image.feature %}<div class="image-wrap">
+    <h1 class="tagline" style="color:white;left:20px;top:20px;">{{ page.tagline }}</h1>
   <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
   {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
 </div><!-- /.image-wrap -->{% endif %}

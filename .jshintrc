@@ -14,7 +14,7 @@
   "node": true,
   "strict": false,
   "trailing": false,
-  "undef": true,
+  "undef": false,
   "multistr": true,
   "expr": true
 }

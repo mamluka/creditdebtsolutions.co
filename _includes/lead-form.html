@@ -1,0 +1,92 @@
+<form data-validate="parsley" data-show-errors="true" mixpanel-form-name="Lead" action="http://localhost:8888/lead"
+      method="POST">
+
+    <div style="padding:10px;">
+        <span>Pre-populate with your favorite social network</span>
+
+        <img src="images/google.png" class="login login-with-google" mixpanel-hook="click"
+             mixpanel-event-name="Login with Google"/>
+
+        <img src="images/facebook.png" class="login login-with-facebook" mixpanel-hook="click"
+             mixpanel-event-name="Login with Facebook"/>
+
+    </div>
+
+    <div class="input-group input-group-lg" style="margin-top:7px;width:60%;">
+        <input type="text" class="form-control input-lg" name="name" placeholder="Your name" data-required="true"/>
+    </div>
+
+    <div class="input-group input-group-lg" id="controls" style="margin-top:7px;width:90%">
+        <input type="text" class="form-control input-lg" name="email" placeholder="Your email" data-required="true"
+               data-type="email"/>
+    </div>
+
+    <div class="input-group input-group-lg" style="margin-top:7px;width:90%">
+        <input type="text" class="form-control input-lg" name="phone" placeholder="Phone # (XXX) XXXXXXX "
+               data-type="phone"/>
+    </div>
+
+    <div class="input-group input-group-lg" style="margin-top:7px;width:90%">
+        <select size="1" class="form-control input-lg" name="drug" data-required="true">
+            <option value selected="selected">The drug you took</option>
+            <option value="Celexa">Celexa</option>
+            <option value="Codeine">Codeine</option>
+            <option value="Depakote">Depakote</option>
+            <option value="Diflucan">Diflucan</option>
+            <option value="Effexor">Effexor</option>
+            <option value="Hydrocodone">Hydrocodone</option>
+            <option value="Lexapro">Lexapro</option>
+            <option value="Oxycontin">Oxycontin</option>
+            <option value="Paxil">Paxil</option>
+            <option value="Prozac">Prozac</option>
+            <option value="Topamax">Topamax</option>
+            <option value="Wellbutrin">Wellbutrin</option>
+            <option value="Vicodin">Vicodin</option>
+            <option value="Zoloft">Zoloft</option>
+            <option value="Zonegran">Zonegran</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+
+    <div class="input-group input-group-lg" style="margin-top:7px;width:90%">
+        <select size="1" class="form-control input-lg" name="condition" data-required="true">
+            <option value>Your baby's condition</option>
+            <option value="Heart_Murmur">Heart Murmur</option>
+            <option value="Hole_In_Heart">Hole in Heart</option>
+            <option value="A_Ventrical_Septal_Defect_(VSD)">A Ventrical Septal Defect (VSD)</option>
+            <option value="Anal_Atresia">Anal Atresia</option>
+            <option value="Atrial_Septal_Defect_(ASD)">Atrial Septal Defect (ASD)</option>
+            <option value="Attempted_Suicide">Attempted Suicide</option>
+            <option value="Breathing_Problems/Asthma">Breathing Problems/Asthma</option>
+            <option value="Cleft_Lip/Cleft_Palate">Cleft Lip/Cleft Palate</option>
+            <option value="Club_Foot">Club Foot</option>
+            <option value="Confirmed_Diagnosis_of_Autism">Confirmed Diagnosis of Autism</option>
+            <option value="Craniosynotosis/Misshapen_head/Facial_deformity">Craniosynotosis/Misshapen head/Facial
+                deformity
+            </option>
+            <option value="Extreme_Behavioral_Disorder">Extreme Behavioral Disorder</option>
+            <option value="Fetal_Death">Fetal Death</option>
+            <option value="Heart_Defects">Heart Defects</option>
+            <option value="Hypoplastic_Left_Heart_Syndrome_(HLHS)">Hypoplastic Left Heart Syndrome (HLHS)</option>
+            <option value="Hypoplastic_Right_Heart_Syndrome_(HRHS)">Hypoplastic Right Heart Syndrome (HRHS)</option>
+            <option value="Limb_Defect/Genital_Defect">Limb Defect/Genital Defect</option>
+            <option value="Lung_Disease/Pulmonary_Hypertension">Lung Disease/Pulmonary Hypertension</option>
+            <option value="Miscarriage">Miscarriage</option>
+            <option value="Pulmonary_Hypertension_in_newborn_(PPHN)">Pulmonary Hypertension in newborn (PPHN)</option>
+            <option value="Symptoms_of_Autism_or_ADHD">Symptoms of Autism or ADHD</option>
+            <option value="Ventrical_Outflow_Defect">Ventrical Outflow Defect</option>
+            <option value="Tetralogy_of_the_Fallot">Tetralogy of the Fallot</option>
+            <option value="Transposition_of_the_Great_Arteries">Transposition of the Great Arteries</option>
+            <option value="Other/ADHD/Learning_disability">Other</option>
+        </select>
+    </div>
+
+    <input type="hidden" value="http://localhost:4000/thank-you.html" name="redirect" />
+
+
+    <div class="input-group input-group-lg" style="margin-top:7px;width:550px">
+        <input type="submit" class="btn btn-primary btn-lg" value="Get reviewed"/>
+
+    </div>
+
+</form>

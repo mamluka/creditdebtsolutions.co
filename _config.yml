@@ -1,14 +1,14 @@
-title:            Site Title
+title:            Birth Defets Law Center
 tagline:          A short tagline
 description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-site.com
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  bio:            "Describe your self."
+  name:           Have You Or A Loved One Taken Medications While Being Pregnant?
+  avatar:         baby.jpg
+  bio:            "Popular antidepressants, SSRI’s and anti-seizure medications on the market today may pose serious side effects and permanent and potentially fatal birth defects in infants."
   email:          your@email.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        
@@ -32,13 +32,8 @@ bing_verify:
 links:
   - title: About
     url: /about
-  - title: Articles
-    url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Drugs
+    url: /drugs
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
