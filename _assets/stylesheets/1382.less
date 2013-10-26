@@ -3,30 +3,48 @@
 // TEXTURE ====================================================
 // ELEMENTS ===================================================
 // LAYOUT =====================================================
+.site-name {
+	.grid(12,1.5);
+	.prefix(12,2);
+}
+.top-navigation {
+	.grid(12,8);
+}
+.image-wrap {
+	&:after {
+		left: 33.333333333%;
+	}
+	.headline-wrap {
+		.prefix(12,1);
+	}
+}
+.image-credit {
+	.grid(12,8.5);
+}
+#main article {
+	.grid(12,4.5);
+}
+#index {
+	.grid(12,4.5);
+}
+.related-articles {
+	.grid(12,4.5);
+	.prefix(12,4);
+	.suffix(12,3.5);
+}
+.footer-wrap footer {
+	.grid(12,4.5);
+	.prefix(12,4);
+	.suffix(12,3.5);
+}
+.article-author-top {
+	.grid(12,1.5);
+	.prefix(12,2);
+}
 .tagline {
   padding:20px;
   position: absolute;
   font-size: 4em;
   background: rgba(0, 0, 0, 0.7);
-}
-.article-author-top,
-.article-author-bottom {
-	h3,
-	.bio-photo,
-	p,
-	.author-social {
-		max-width: 150px;
-	}
-	img.bio-photo {
-		width: 150px;
-		height: 150px;
-		.rounded(150px);
-	}
-}
-/* Image Grid ============================================== */
-.image-grid {
-	li {
-		width: 16.666666666%;
-	}
 }
 // VENDOR-SPECIFIC ============================================
