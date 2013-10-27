@@ -11,8 +11,8 @@ Some thank you text here!
 ## Tell others, be social
 
 You can share your thoughts by posting on social networks
-<img src="images/facebook.png" class="login post-with-facebook shake"  mixpanel-hook="click" mixpanel-event-name="Post to Facebook"/>
-<img src="images/twitter.png" class="login post-with-twitter shake" mixpanel-hook="click" mixpanel-event-name="Post to  Twitter"/>
+<img src="images/facebook.png" class="login post-with-facebook shake"  mixpanel-hook="click" mixpanel-event-name="Open post to Facebook"/>
+<img src="images/twitter.png" class="login post-with-twitter shake" mixpanel-hook="click" mixpanel-event-name="Open tweet to Twitter"/>
 
 
 

@@ -44,17 +44,22 @@ $(document).ready(function () {
 
     $('form').submit(function (e) {
         var self = $(this);
+        var formName = self.attr('mixpanel-form-name');
 
         if (self.parsley('validate') && !self.attr('already-submitted')) {
             $('input[type=submit]').attr("disabled", true);
             self.attr('already-submitted', true);
 
-            mixpanel.track(self.attr('mixpanel-form-name') + ' form submitted', {}, function () {
+
+            mixpanel.track(formName + ' form submitted', {}, function () {
                 self.submit();
             });
 
             return false;
         }
+
+        if (!self.parsley('validate'))
+            mixpanel.track(formName + ' incomplete form submitted');
 
         return true;
     });
@@ -64,9 +69,11 @@ $(document).ready(function () {
         FB.ui({
             method: 'feed',
             link: 'http://google.com',
-            caption: 'Birth defacts',
+            caption: 'Birth defacts'
         }, function (response) {
-
+            mixpanel.track('Posted to facebook', {
+                id: response.post_id
+            })
         });
 
     });

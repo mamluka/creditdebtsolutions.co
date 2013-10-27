@@ -59,6 +59,7 @@ function cssPath(el, path) {
 
 
 $.fn.scrollStopped = function (callback) {
+
     $(this).scroll(function () {
         var self = this, $this = $(self);
         if ($this.data('scrollTimeout')) {
@@ -70,6 +71,17 @@ $.fn.scrollStopped = function (callback) {
 
 
 $(function () {
+
+
+    var sessionId = window.sessionStorage.getItem('mp_id') || guid();
+
+    mixpanel.identify(sessionId);
+    mixpanel.people.set({
+        'Visit Date': new Date()
+    });
+
+    window.sessionStorage.setItem('mp_id', sessionId);
+
     $('[mixpanel-hook]').each(function () {
         var self = $(this);
         self.on(self.attr('mixpanel-hook'), function () {
@@ -95,8 +107,6 @@ $(function () {
 
     });
 
-
-
     var viewportHeight = $(window).height();
     var lastPage = 1;
     $(window).scrollStopped(function () {
@@ -106,6 +116,17 @@ $(function () {
             lastPage = currentPage;
         }
     });
+
+
+    function s4() {
+        return Math.floor((1 + Math.random()) * 0x10000)
+            .toString(16)
+            .substring(1);
+    };
+
+    function guid() {
+        return s4() + s4()
+    }
 
 });
 

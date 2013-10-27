@@ -123,7 +123,7 @@ body {
 }
 
 .tagline {
-  padding:20px;
+  padding: 20px;
   position: absolute;
   font-size: 4em;
   background: rgba(0, 0, 0, 0.7);
@@ -134,11 +134,12 @@ body {
   font-size: 80%;
 }
 
-input.parsley-success,select.parsley-success {
+input.parsley-success, select.parsley-success {
   color: #468847 !important;
   background-color: #DFF0D8 !important;
   border: 1px solid #D6E9C6 !important;
 }
+
 input.parsley-error, select.parsley-error {
   color: #B94A48 !important;
   background-color: #F2DEDE !important;
@@ -445,6 +446,7 @@ input.parsley-error, select.parsley-error {
   -moz-transition: margin-bottom 150ms linear;
   transition: margin-bottom 150ms linear;
 }
+
 #scrollUp:hover {
   margin-bottom: 0px;
 }
@@ -456,33 +458,115 @@ input.parsley-error, select.parsley-error {
     margin-left: 5px;
   }
 }
+
 .login {
   cursor: pointer;
 }
 
 @-webkit-keyframes spaceboots {
-  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
-  10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
-  30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
-  40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
-  50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
-  70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
-  80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
-  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
-  100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
+
 .shake:hover,
 .shake:focus {
   -webkit-animation-name: spaceboots;
   -webkit-animation-duration: 0.8s;
-  -webkit-transform-origin:50% 50%;
+  -webkit-transform-origin: 50% 50%;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
+
 .shake {
-  display:inline-block;
+  display: inline-block;
+}
+
+.social-roll {
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.social-roll:hover {
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.facebook {
+  background-image: url(/images/share/facebook-gray.png);
+}
+
+.facebook:hover {
+  background-image: url(/images/share/facebook-active.png);
+}
+
+.twitter {
+  background-image: url(/images/share/twitter-gray.png);
+}
+
+.twitter:hover {
+  background-image: url(/images/share/twitter-active.png);
+}
+
+.google {
+  background-image: url(/images/share/google-gray.png);
+}
+
+.google:hover {
+  background-image: url(/images/share/google-active.png);
+}
+
+.tumblr {
+  background-image: url(/images/share/tumblr-gray.png);
+}
+
+.tumblr:hover {
+  background-image: url(/images/share/tumblr-active.png);
+}
+
+.social-share-buttons {
 }
 
 // Browser Upgrade
