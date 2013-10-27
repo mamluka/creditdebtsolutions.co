@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     $('.login-with-google').click(function () {
         gapi.auth.authorize({
-            client_id: '786886532575.apps.googleusercontent.com',
+            client_id: site.social.google_key,
             immediate: false,
             scope: ['https://www.googleapis.com/auth/userinfo.email']
 

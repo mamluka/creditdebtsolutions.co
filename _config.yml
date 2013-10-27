@@ -1,25 +1,14 @@
 title:            Birth Defets Law Center
 tagline:          A short tagline
 description:      Describe your website.
-#Comment out url when working locally to resolve base urls correctly
 url:              http://localhost:4000
+post_url:         http://localhost:8888/lead
 
 # Owner/author information
 owner:
   name:           Have You Or A Loved One Taken Medications While Being Pregnant?
   avatar:         baby.jpg
   bio:            "Popular antidepressants, SSRI’s and anti-seizure medications on the market today may pose serious side effects and permanent and potentially fatal birth defects in infants."
-  email:          your@email.com
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  linkedin:       
-  instagram:      
-  lastfm:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -62,5 +51,15 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
 assets:
-  js_compressor:  uglifier
-  css_compressor: yui
+#  js_compressor:  uglifier
+#  css_compressor: yui
+  debug: false
+  cachebust: none
+
+
+
+social:
+  facebook_key: '657746637591038'
+  google_key: '786886532575.apps.googleusercontent.com'
+
+

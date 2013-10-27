@@ -68,8 +68,8 @@ mixpanel.init("ea32f7d5c3fe53818667578929eb1628");</script><!-- end Mixpanel -->
     window.fbAsyncInit = function () {
         // init the FB JS SDK
         FB.init({
-            appId: '657746637591038',                        // App ID from the app dashboard
-            channelUrl: '//localhost:4000/channel.html', // Channel file for x-domain comms
+            appId: '{{ site.social.facebook_key }}',                        // App ID from the app dashboard
+            channelUrl: '{{ site.url }}/channel.html', // Channel file for x-domain comms
             status: true,                                 // Check Facebook Login status
             xfbml: true                                  // Look for social plugins on the page
         });

@@ -1,13 +1,13 @@
-<form data-validate="parsley" data-show-errors="true" mixpanel-form-name="Lead" action="http://localhost:8888/lead"
+<form data-validate="parsley" data-show-errors="true" mixpanel-form-name="Lead" action="{{ site.post_url }}"
       method="POST">
 
-    <div style="padding:10px;">
+    <div class="social-buttons">
         <span>Pre-populate with your favorite social network</span>
 
-        <img src="images/google.png" class="login login-with-google" mixpanel-hook="click"
+        <img src="images/google.png" class="login login-with-google shake" mixpanel-hook="click"
              mixpanel-event-name="Login with Google"/>
 
-        <img src="images/facebook.png" class="login login-with-facebook" mixpanel-hook="click"
+        <img src="images/facebook.png" class="login login-with-facebook shake" mixpanel-hook="click"
              mixpanel-event-name="Login with Facebook"/>
 
     </div>
@@ -81,7 +81,7 @@
         </select>
     </div>
 
-    <input type="hidden" value="http://localhost:4000/thank-you.html" name="redirect" />
+    <input type="hidden" value="http://localhost:4000/thank-you.html" name="redirect"/>
 
 
     <div class="input-group input-group-lg" style="margin-top:7px;width:550px">
