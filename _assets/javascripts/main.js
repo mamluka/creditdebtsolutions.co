@@ -40,7 +40,7 @@ $(document).ready(function () {
         });
     });
 
-    $.scrollUp();
+    startIfBiggerThen(768, $.scrollUp);
 
     $('form').submit(function (e) {
         var self = $(this);
@@ -81,5 +81,10 @@ $(document).ready(function () {
 
         window.open(link, "Twitter", "width=600, height=450, top=" + top + ", left=" + left);
     });
+
+    function startIfBiggerThen(size, callback) {
+        if ($(window).width() >= size)
+            callback();
+    }
 });
 
