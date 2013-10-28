@@ -1,65 +1,65 @@
-title:            Birth Defets Law Center
-tagline:          Get FREE instant legal case review
-description:      Have You Or A Loved One Taken Medications While Being Pregnant? Get FREE instant legal case review
-url:              http://localhost:4000
-post_url:         http://localhost:8888/lead
-
-# Owner/author information
+---
+title: Birth Defets Law Center
+tagline: Get FREE instant legal case review
+description: Have You Or A Loved One Taken Medications While Being Pregnant? Get FREE
+  instant legal case review
+url: http://localhost:4000
+post_url: http://localhost:8888/lead
 owner:
-  name:           Have You Or A Loved One Taken Medications While Being Pregnant?
-  avatar:         baby.jpg
-  bio:            "Popular antidepressants, SSRI’s and anti-seizure medications on the market today may pose serious side effects and permanent and potentially fatal birth defects in infants."
-
-# Analytics and webmaster tools stuff goes here
+  name: Have You Or A Loved One Taken Medications While Being Pregnant?
+  avatar: baby.jpg
+  bio: Popular antidepressants, SSRI’s and anti-seizure medications on the market
+    today may pose serious side effects and permanent and potentially fatal birth
+    defects in infants.
 google_analytics: UA-45220287-1
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
-
-# Links to include in top navigation
-# For external links add external: true
+google_verify: 
+bing_verify: 
 links:
-  - title: About
-    url: /about
-  - title: Drugs
-    url: /drugs
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-pygments:    true
-markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
+- title: About
+  url: /about
+- title: Drugs
+  url: /drugs
+timezone: America/New_York
+future: true
+pygments: true
+markdown: kramdown
+permalink: /:categories/:title
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-
   coderay:
     coderay_line_numbers: 
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-
+include:
+- .htaccess
+exclude:
+- lib
+- config.rb
+- Capfile
+- config
+- log
+- Rakefile
+- Rakefile.rb
+- tmp
+- less
+- '*.sublime-project'
+- '*.sublime-workspace'
+- test
+- spec
+- Gruntfile.js
+- package.json
+- node_modules
 assets:
-  js_compressor:  uglifier
+  js_compressor: uglifier
   css_compressor: yui
   debug: false
   cachebust: none
-
-
-
 social:
   facebook_key: '657746637591038'
-  google_key: '786886532575.apps.googleusercontent.com'
-
-
+  google_key: 786886532575.apps.googleusercontent.com
