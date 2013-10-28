@@ -3,12 +3,10 @@ layout: page
 permalink: index.html
 tagline: "Get compensated for your baby's injustice"
 title: You deserve the best legal advice!
-description: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
-tags: [Jekyll, theme, responsive]
+description: "If you or anyone you know have given birth to an infant with birth defects, Get FREE instant legal case review"
+tags: [legal case review,birth defects]
 image:
   feature: head-image.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
 ---
 
 <section id="table-of-contents" class="toc" mixpanel-track-links="Clicked toc navigation">

@@ -1,6 +1,8 @@
 <form data-validate="parsley" data-show-errors="true" mixpanel-form-name="Lead" action="{{ site.post_url }}"
       method="POST">
 
+
+
     <div class="social-buttons">
         <span>Pre-populate with your favorite social network</span>
 
@@ -10,6 +12,10 @@
         <img src="images/facebook.png" class="login login-with-facebook shake" mixpanel-hook="click"
              mixpanel-event-name="Login with Facebook"/>
 
+    </div>
+
+    <div class="input-group input-group-lg" class="bp">
+        <input type="text" class="form-control input-lg" name="gender" placeholder="male or female"/>
     </div>
 
     <div class="input-group input-group-lg" style="margin-top:7px;width:60%;">
@@ -23,7 +29,7 @@
 
     <div class="input-group input-group-lg" style="margin-top:7px;width:90%">
         <input type="text" class="form-control input-lg" name="phone" placeholder="Phone # (XXX) XXXXXXX "
-               data-type="phone"/>
+               data-type="phone" data-required="true"/>
     </div>
 
     <div class="input-group input-group-lg" style="margin-top:7px;width:90%">

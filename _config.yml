@@ -1,6 +1,6 @@
 title:            Birth Defets Law Center
-tagline:          A short tagline
-description:      Describe your website.
+tagline:          Get FREE instant legal case review
+description:      Have You Or A Loved One Taken Medications While Being Pregnant? Get FREE instant legal case review
 url:              http://localhost:4000
 post_url:         http://localhost:8888/lead
 
@@ -11,7 +11,7 @@ owner:
   bio:            "Popular antidepressants, SSRI’s and anti-seizure medications on the market today may pose serious side effects and permanent and potentially fatal birth defects in infants."
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics: UA-45220287-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:        
@@ -51,8 +51,8 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
 assets:
-#  js_compressor:  uglifier
-#  css_compressor: yui
+  js_compressor:  uglifier
+  css_compressor: yui
   debug: false
   cachebust: none
 
