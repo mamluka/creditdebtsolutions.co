@@ -3,8 +3,8 @@ title: Birth Defets Law Center
 tagline: Get FREE instant legal case review
 description: Have You Or A Loved One Taken Medications While Being Pregnant? Get FREE
   instant legal case review
-url: http://localhost:4000
-post_url: http://localhost:8888/lead
+url: http://142.54.174.66:9100
+post_url: http://142.54.174.66:8888/lead
 owner:
   name: Have You Or A Loved One Taken Medications While Being Pregnant?
   avatar: baby.jpg
