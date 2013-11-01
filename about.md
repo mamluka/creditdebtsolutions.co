@@ -1,13 +1,12 @@
 ---
 layout: page
 permalink: /about/index.html
-title: The National Injury Attorney Network
-tags: [Injury,Attorney Network]
+title: Innovative Debt Solutions  LLC
+tags: [Innovative Debt Solutions]
 modified: 9-9-2013
 ---
 
-The National Injury Attorney Network is an attorney matching service offered for free to individuals within the United States that have suffered an injury at the fault of another.
+Innovative Debt Solutions  LLC is a financial services and education company that helps consumers and businesses get out of debt (Credit Counseling & Debt Settlement), consolidate their student loans, improve their credit, provide education, and become financially free.
+We work for you and provide you with unbiased information to help out your specific circumstances. Our team of experts have over 15 years of experience, and have helped thousands of consumers and businesses with their debts, and their credit. We are consumer advocates that offer a free, confidential consultation that can provide answers to any debt, or credit question that you may have. 
 
-The purpose of this service is to provide you the consumer with a free resource to share specific details about your legal case, help you understand whether or not you have a case based on the case requirements and your personal situation and to ultimately match you with the most competent attorney that services such cases.  Attorneys within the National Injury Attorney Network work on a contingency basis.
-
-Legal case reviews cost you nothing and if no compensation is awarded, you pay no legal fees.  The National Injury Attorney Network works as a marketing company for attorneys and is not an attorney referral service.
+At Bright Credit LLC consumers and businesses can learn the best option for their individual circumstance with no pressure or obligation. 

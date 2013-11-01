@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: index.html
-tagline: "needs emotions"
+tagline: "We feel your burden"
 title: Credit Card Debt Relief Solutions That Work For You
 description: "Your financial situation is as unique as you are. The Innovative debt solutions team of experts has more than 15 years of experience helping people just like you get out of debt"
 tags: [legal case review,birth defects]
@@ -19,26 +19,28 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-If you or anyone you know have given birth to an infant with birth defects
+We’ll evaluate your situation and give you objective recommendations
 
-## Get FREE instant legal case review
+## Get FREE evaluation and with no obligation.
 
 {% include lead-form.html %}
 
 ## Your financial situation 
 
 Your financial situation is as unique as you are. The Innovative debt solutions team of experts has more than 15 years of experience helping people just like you get out of debt, consolidate your student loans, improve your credit, and build a brighter future.
-You'll benefit from having consumer advocates on your side. We offer a free, unbiased confidential consultation to answer any credit card debt, student loan, or credit question you have. You can find out the best option for your circumstances with no pressure or obligation.
+
+You’ll benefit from having consumer advocates on your side. We offer a free, unbiased confidential consultation to answer any credit card debt, student loan, or credit question you have. You can find out the best option for your circumstances with no pressure or obligation.
+
 
 ## Debt Settlement
 
-If you've experienced a financial hardship and can no longer afford your minimum payments, you could qualify for Debt Settlement. Creditors often settle for a reduced amount (sometimes up to a 60%* reduction) to regain some of their money. This program has been around for almost 30 years and could reduce your minimum payments by half.
-Do you have high interest rates? For Credit Counseling/Debt Management, don't trust just anyone to speak to creditors on your behalf. We can secure dramatic interest rate reductions and the terms that help you get out of debt faster. We use a licensed and bonded company or a non-profit 501(c)3 to service your accounts and will provide you with a free analysis so you can see how much money you'll save before you join.
+If you’ve experienced a financial hardship and can no longer afford your minimum payments, you could qualify for Debt Settlement. Creditors often settle for a reduced amount (sometimes up to a 60%* reduction) to regain some of their money. This program has been around for almost 30 years and could reduce your minimum payments by half.
+
 
 ## Consolidate Your Student loans
 
-Do you need to consolidate your federal Student Loans and lower your monthly payments by up to 50% or more? Do you need to stop a wage garnishment or collection calls? Do you want to go back to school but can't because you are in default? Call now to see how much money that you can save and to see if you qualify.
-You'll learn all your options, and the pros and cons of each one. We are the debt and credit experts. We'll tell you what other companies try to hide from you. Call, email, or contact us online today and see how we can help change your financial future.
-Not sure what kind of help is right for you?  Take advantage of our free confidential consultation. We'll evaluate your situation and give you objective recommendations, free and with no obligation.
+Do you need to consolidate your federal Student Loans and lower your monthly payments by up to 50% or more? Do you need to stop a wage garnishment or collection calls? Do you want to go back to school but can’t because you are in default? Call now to see how much money that you can save and to see if you qualify.
 
+You’ll learn all your options – and the pros and cons of each one. We are the debt and credit experts. We’ll tell you what other companies try to hide from you. Call, email, or contact us online today and see how we can help change your financial future.
 
+Not sure what kind of help is right for you?  Take advantage of our free confidential consultation. We’ll evaluate your situation and give you objective recommendations – free and with no obligation.

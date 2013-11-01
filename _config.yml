@@ -1,24 +1,22 @@
 ---
-title: Birth Defets Law Center
-tagline: Get FREE instant legal case review
-description: Have You Or A Loved One Taken Medications While Being Pregnant? Get FREE
-  instant legal case review
-url: http://142.54.174.66:9100
+title: Innovative Debt Solutions
+tagline: Credit Card Debt Relief Solutions That Work For You
+description: Your financial situation is as unique as you are. The Innovative debt solutions team of experts has more than 15 years of experience helping people just like you get out of debt, consolidate your student loans, improve your credit, and build a brighter future.
+url: http://localhost:4000
 post_url: http://142.54.174.66:8888/lead
 owner:
-  name: Have You Or A Loved One Taken Medications While Being Pregnant?
-  avatar: baby.jpg
-  bio: Popular antidepressants, SSRI’s and anti-seizure medications on the market
-    today may pose serious side effects and permanent and potentially fatal birth
-    defects in infants.
+  name: Do you need to consolidate your federal Student Loans and lower your monthly payments by up to 50% or more?
+  avatar: me.jpg
+  bio: Not sure what kind of help is right for you?  Take advantage of our free confidential consultation. We’ll evaluate your situation and give you objective recommendations – free and with no obligation.
 google_analytics: UA-45220287-1
+mixpanel: 5a005b490f24fb5c759c7eb01008ddcd
 google_verify: 
 bing_verify: 
 links:
 - title: About
   url: /about
-- title: Drugs
-  url: /drugs
+- title: Debt Settlement
+  url: /debt-settlement
 timezone: America/New_York
 future: true
 pygments: true
