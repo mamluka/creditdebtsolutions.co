@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     $('.login-with-google').click(function () {
         gapi.auth.authorize({
-            client_id: site.social.google_key,
+            client_id: site.social.googleKey,
             immediate: false,
             scope: ['https://www.googleapis.com/auth/userinfo.email']
 
@@ -79,8 +79,8 @@ $(document).ready(function () {
     });
 
     $('.post-with-twitter').click(function () {
-        var msg = encodeURIComponent('We are the attorny network');
-        var url = encodeURIComponent('http://www.birthdefectsettlement.com/');
+        var msg = encodeURIComponent(site.social.thankYouTweet);
+        var url = encodeURIComponent(site.site.url);
         var link = 'http://twitter.com/intent/tweet?text=' + msg + '&url=' + url;
 
         var left = ($(window).width() / 2) - (600 / 2),
