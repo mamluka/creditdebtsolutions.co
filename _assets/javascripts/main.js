@@ -71,6 +71,7 @@ $(document).ready(function () {
             link: 'http://google.com',
             caption: 'Birth defacts'
         }, function (response) {
+            if (response.post_id)
             mixpanel.track('Posted to facebook', {
                 id: response.post_id
             })
@@ -80,7 +81,7 @@ $(document).ready(function () {
 
     $('.post-with-twitter').click(function () {
         var msg = encodeURIComponent(site.social.thankYouTweet);
-        var url = encodeURIComponent(site.site.url);
+        var url = encodeURIComponent(site.url);
         var link = 'http://twitter.com/intent/tweet?text=' + msg + '&url=' + url;
 
         var left = ($(window).width() / 2) - (600 / 2),
