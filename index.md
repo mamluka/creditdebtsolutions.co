@@ -4,7 +4,7 @@ permalink: index.html
 tagline: "We feel your burden"
 title: Credit Card Debt Relief Solutions That Work For You
 description: "Your financial situation is as unique as you are. The Innovative debt solutions team of experts has more than 15 years of experience helping people just like you get out of debt"
-tags: [legal case review,birth defects]
+tags: [financial situation,Innovative debt solutions,Credit Card Debt Relief,credit card debt,debt consultation]
 image:
   feature: head-image.jpg
 ---

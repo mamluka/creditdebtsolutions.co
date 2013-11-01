@@ -68,8 +68,8 @@ $(document).ready(function () {
 
         FB.ui({
             method: 'feed',
-            link: 'http://google.com',
-            caption: 'Birth defacts'
+            link: site.url,
+            caption: site.title
         }, function (response) {
             if (response.post_id)
             mixpanel.track('Posted to facebook', {

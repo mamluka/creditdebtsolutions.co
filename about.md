@@ -3,7 +3,6 @@ layout: page
 permalink: /about/index.html
 title: Innovative Debt Solutions  LLC
 tags: [Innovative Debt Solutions]
-modified: 9-9-2013
 ---
 
 Innovative Debt Solutions  LLC is a financial services and education company that helps consumers and businesses get out of debt (Credit Counseling & Debt Settlement), consolidate their student loans, improve their credit, provide education, and become financially free.
