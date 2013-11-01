@@ -8,7 +8,8 @@ owner:
   name: Do you need to consolidate your federal Student Loans and lower your monthly payments by up to 50% or more?
   avatar: me.jpg
   bio: Not sure what kind of help is right for you?  Take advantage of our free confidential consultation. We’ll evaluate your situation and give you objective recommendations – free and with no obligation.
-google_analytics: UA-45220287-1
+google_analytics: UA-45356278-1
+google_analytics_site: creditdebtsolutions.co
 mixpanel: 5a005b490f24fb5c759c7eb01008ddcd
 google_verify: 
 bing_verify: 
@@ -59,5 +60,5 @@ assets:
   debug: false
   cachebust: none
 social:
-  facebook_key: '657746637591038'
-  google_key: 786886532575.apps.googleusercontent.com
+  facebook_key: '584907938213428'
+  google_key: 684951847093.apps.googleusercontent.com
