@@ -6,7 +6,7 @@ title: Thank you
 description: "Thank you for submitting"
 ---
 
-Some thank you text here!
+We will contact you shortly, thank you for taking interest in improving your life
 
 ## Tell others, be social
 
