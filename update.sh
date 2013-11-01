@@ -1,6 +1,6 @@
 git reset --hard
 git pull
 
-dir = $(printf '%s\n' "${PWD##*/}")
+site_domain = $(printf '%s\n' "${PWD##*/}")
 
-ruby change-site-urls #dir api.$dir
+ruby change-site-urls $site_domain api.$site_domain
