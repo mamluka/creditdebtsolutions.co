@@ -6,7 +6,7 @@ description: Your financial situation is as unique as you are. The Innovative de
   like you get out of debt, consolidate your student loans, improve your credit, and
   build a brighter future.
 url: http://creditdebtsolutions.co
-post_url: http://api.creditdebtsolutions.co/lead
+post_url: http://data.creditdebtsolutions.co/lead
 domain: creditdebtsolutions.co
 owner:
   name: Do you need to consolidate your federal Student Loans and lower your monthly
@@ -25,6 +25,8 @@ links:
   url: /about
 - title: Debt Settlement
   url: /debt-settlement
+- title: Privacy Policy
+  url: /privacy
 timezone: America/New_York
 future: true
 pygments: true
