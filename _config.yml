@@ -1,13 +1,19 @@
 ---
 title: Innovative Debt Solutions
 tagline: Credit Card Debt Relief Solutions That Work For You
-description: Your financial situation is as unique as you are. The Innovative debt solutions team of experts has more than 15 years of experience helping people just like you get out of debt, consolidate your student loans, improve your credit, and build a brighter future.
-url: http://localhost:4000
-post_url: http://142.54.174.66:8888/lead
+description: Your financial situation is as unique as you are. The Innovative debt
+  solutions team of experts has more than 15 years of experience helping people just
+  like you get out of debt, consolidate your student loans, improve your credit, and
+  build a brighter future.
+url: http://api.
+post_url: http:///lead
 owner:
-  name: Do you need to consolidate your federal Student Loans and lower your monthly payments by up to 50% or more?
+  name: Do you need to consolidate your federal Student Loans and lower your monthly
+    payments by up to 50% or more?
   avatar: me.jpg
-  bio: Not sure what kind of help is right for you?  Take advantage of our free confidential consultation. We’ll evaluate your situation and give you objective recommendations – free and with no obligation.
+  bio: Not sure what kind of help is right for you?  Take advantage of our free confidential
+    consultation. We’ll evaluate your situation and give you objective recommendations
+    – free and with no obligation.
 google_analytics: UA-45356278-1
 google_analytics_site: creditdebtsolutions.co
 mixpanel: 5a005b490f24fb5c759c7eb01008ddcd
